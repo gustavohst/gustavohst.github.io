@@ -2,8 +2,12 @@
   text-align: center;
 }
 
+html,
+body {
+	height: 100%;
+}
+
 .mainContainter {
-  display: flex;
 }
 
 .leftPanel{
