@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.mainContainter {
+  display: flex;
+}
+
+.leftPanel{
+  background-color: #7A68D8;
+  width: 50%;
+}
+
+.rightPanel{
+  background-color: #cc2525;
+  width: 50%;
+}
