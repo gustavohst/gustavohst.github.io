@@ -22,10 +22,6 @@ function App() {
   ];`
   );
 
-  const handleOpenNewTab = (pageUrl) => {
-    window.open(pageUrl);
-  }
-
   return (
     <div className="mainContainter">
       <div className="leftPanel">
