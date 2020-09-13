@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Button from './components/button/button.js'
-import Presentation from './components/presentation/presentation.js'
-import CodeSample from './components/codeSample/codeSample.js'
+import Button from './components/button/button.js';
+import Presentation from './components/presentation/presentation.js';
+import CodeSample from './components/codeSample/codeSample.js';
 
 function App() {
 
@@ -28,19 +28,23 @@ function App() {
         <CodeSample sample={skills} />
       </div>
       <div className="rightPanel">
-        <div />
-        <div className="presentMe">
-          <Presentation
-            labelTop="Hi I'm"
-            labelMid="Gustavo Tenório"
-            labelBottom="FULL STACK DEVELOPER"
-          >
-            <Button
-              label="View CV"
-              pageUrl={'https://www.linkedin.com/in/gustavotenorio/'}
-            />
-          </Presentation>
+        <div className="profilePicture">
+          <img src="Profile1.png" alt="A picture of me" />
+
         </div>
+
+
+        <Presentation
+          labelTop="Hi I'm"
+          labelMid="Gustavo Tenório"
+          labelBottom="FULL STACK DEVELOPER"
+        >
+          <Button
+            label="View CV"
+            pageUrl={'https://www.linkedin.com/in/gustavotenorio/'}
+          />
+        </Presentation>
+
         <div className="socialMediaContainer">
           <Button
             label="in"

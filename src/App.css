@@ -7,11 +7,13 @@ body {
   height: 100%;
   margin: 0;
   font-family: Consolas;
+  font-size: 1.1vw;
 }
 
 button:focus {
   outline: none;
 }
+
 
 #root{
   height: 100%;
@@ -37,8 +39,42 @@ button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 35px 20px;
+  justify-content: space-evenly;
 }
 
+.profilePicture{
+  border-radius: 50%;
+  width: calc(7.5vh + 7.5vw);
+  height: calc(7.5vh + 7.5vw);
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 1px 1px 20px -7px #000000;
+}
 
+.profilePicture > img{
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  height: 100%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  html{
+    font-size: 4vw;
+  }
+	.mainContainter {
+		flex-direction: column-reverse;
+	}
+
+	.leftPanel, .rightPanel {
+		width: 100%;
+		flex-grow: 1;
+		height: 50vh;
+  }
+  
+  .profilePicture{
+    width: calc(7.5vh + 7.5vw);
+    height: calc(7.5vh + 7.5vw);
+  }
+}

@@ -17,5 +17,21 @@
  .commonText{
    font-size: 2.5vw;
  }
+
+ 
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .name{
+    font-size: 2rem;
+  }
+
+  .commonText{
+    font-size: 1rem;
+  }
+
+  .bigPipe{
+    width: 16rem;
+  }
+}
  
  

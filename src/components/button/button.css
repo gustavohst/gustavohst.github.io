@@ -1,3 +1,7 @@
+button{
+  cursor: pointer;
+}
+
 .primaryButton{
    border: 1px solid #7A68D8;
    width: 100px;
@@ -33,13 +37,13 @@
 
 .socialMediaContainer > button {
   margin: 0 25px;
- 
+  font-size: 1.4rem;
 }
 
 .socialMediaSquareButton{
    border: 1px solid #7A68D8;
-   height: 35px;
-   width: 35px;
+   height: 2.5rem;
+   width: 2.5rem;
    border-radius: 4px;
    display: flex;
    align-items: center;
@@ -56,17 +60,14 @@
  .linkedinIcon{
    font-weight: 700;
    font-family: Segoe UI;
-   font-size: 22px;
  }
  
  .githubIcon{
    font-family: MS UI Gothi;
    font-weight: 700;
-   font-size: 22px;
  }
  
  .devIcon{
-   font-size: 18px;
    font-family: inherit;
  }
  
