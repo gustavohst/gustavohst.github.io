@@ -1,0 +1,21 @@
+
+.presentMe{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .bigPipe{
+   border: 1px solid #666666;
+   width: 40vw;
+   margin: 15px 0;
+ }
+
+ .name{
+   font-size: 5vw;
+ }
+ .commonText{
+   font-size: 2.5vw;
+ }
+ 
+ 
