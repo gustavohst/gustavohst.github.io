@@ -30,10 +30,7 @@ function App() {
       <div className="rightPanel">
         <div className="profilePicture">
           <img src="Profile1.png" alt="A picture of me" />
-
         </div>
-
-
         <Presentation
           labelTop="Hi I'm"
           labelMid="Gustavo Tenório"
@@ -44,7 +41,6 @@ function App() {
             pageUrl={'https://www.linkedin.com/in/gustavotenorio/'}
           />
         </Presentation>
-
         <div className="socialMediaContainer">
           <Button
             label="in"
